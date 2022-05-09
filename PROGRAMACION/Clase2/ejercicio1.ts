@@ -6,5 +6,5 @@ console.log ("poner 1 palada");
 console.log ("avanzar");
 console.log ("sacar 1 palada");
 console.log ("avanzar");
-console.log ("sacar  palada);
+console.log ("sacar 1 palada);
 console.log ("avanzar");
