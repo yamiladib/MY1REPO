@@ -1,5 +1,5 @@
 let btnEnv = document.getElementById("btnEnviar");
-let dato = document.form[0].dato;
+let dato = document.getElementById("dato");
 let rotulo = document.getElementById("rotulo");
 
 btnEnv.addEventListener("click", () => {
