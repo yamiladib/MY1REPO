@@ -1,3 +1,4 @@
+//declaro variables y las muestro por consola
 let title: string = "preparar coulant de chocolate";
 let paso1: string = "conseguir los ingredientes";
 let paso2: string =

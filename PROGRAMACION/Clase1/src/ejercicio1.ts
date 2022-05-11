@@ -1,3 +1,4 @@
+//pasos para preparar una torta
 console.log("preparar coulant de chocolate");
 console.log("conseguir los ingredientes");
 console.log("Mezcla la harina con el cacao amargo y tamiza");
