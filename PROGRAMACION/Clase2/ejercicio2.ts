@@ -1,6 +1,6 @@
 //Calcular area de um rectangulo
-let base = 5;
-let altura = 10;
-let resultado = base * altura;
+let base: number = 5;
+let altura: number = 10;
+let resultado: number = base * altura;
 
-console.log = resultado;
+console.log(resultado);
