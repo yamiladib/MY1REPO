@@ -1,26 +1,31 @@
 <html>
   <head>
-    <title>Numeromayor</title>
+    <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
   </head>
-  <body>
-    <h1>Numero mayor</h1>
-    <p>ingrese el primer numero</p>
-    <p>
-      <input type="number" id="dato1" />
-    </p>
 
-    <p>ingrese el segundo numero</p>
-    <p>
-      <input type="number" id="dato2" />
-    </p>
+  <body><html>
 
-    <p>ingrese el tercer numero</p>
-      <input type="number" id="dato3" />
-      <button id="btnEnviar">Enviar</button> 
-      <p id="result"></P>
-      <script src="src/ejercicio1.ts"></script>
-  </body>
-
-  
-</html>
+		<head>
+			<title>Mayor de tres</title>
+			<meta charset="UTF-8" />
+		</head>
+	
+		<body>
+		<h1>Mayor de tres</h1>
+		<form onsubmit="return false">
+			<p id="rotulo1"> </p>
+			<input type="text" id="dato1" value="" /> </br>
+			<p id="rotulo2"> </p>
+	
+			<input type="text" id="dato2" value="" /> </br>
+			<p id="rotulo3"> </p>
+	
+			<input type="text" id="dato3" value="" /> </br>
+	
+	
+			<button id="btnEnv">Calcular</button>
+	
+	</form>
+			<script src="src/index.ts"></script>
+		</body>
