@@ -5,4 +5,9 @@ btnEnv.addEventListener("click", () => {
 let numeroIngresado: number = Number(dato.value);
 if (numeroIngresado%2 == 0) {
 console.log ("el numero ingresado es par");
-else
+} else if (elnumeroIngresado!=0){
+console.log("el numero ingresado es impar");
+if (numeroIngresado ==0){
+console.log ("el numero ingresado es 0")
+}
+});
