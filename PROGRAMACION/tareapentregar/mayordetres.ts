@@ -25,3 +25,25 @@ btnEnv.addEventListener("click", () => {
     console.log("el numero3 numero es el mayor");
   }
 });
+
+/*<html>
+  <head>
+    <title>Mayor de 3</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Mayor de tres</h1>
+    <form onsubmit="return false">
+      <p id="rotulo1"></p>
+      <input type="text" id="dato1" value="" />
+      <p id="rotulo2"></p>
+      <input type="text" id="dato2" value="" />
+      <p id="rotulo3"></p>
+      <input type="text" id="dato3" value="" />
+
+      <button id="btnEnviar">Enviar</button>
+    </form>
+    <script src="src/index.ts"></script>
+  </body>
+</html>*/
