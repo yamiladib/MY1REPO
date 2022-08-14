@@ -1,0 +1,31 @@
+#contenedor-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 90vh;
+  background-image: ;
+}
+
+.titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: "Laila", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.cuerpo {
+  font-family: "Marmelad", sans-serif;
+  font-size: 25px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+}
