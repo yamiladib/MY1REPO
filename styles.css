@@ -2,30 +2,34 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 90vh;
-  background-image: ;
+  height: 80vh;
+  background
 }
 
-.titulo {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 55px;
+.titulo{
+  font-family: 'Cambria', sans-serif;
+  font-size: 40px;
+  font-weight: bold
+}
+
+.subtitulo{
+  font-family: 'Mermelad', sans-serif;
+  font: size 20;px;
   font-weight: bold;
 }
 
-.subtitulo {
-  font-family: "Laila", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
+.cuerpo{
+  font-family: 'laila', sans-serif;
+  font-size: 20px;
+}
+.enlace{
+  color:black
+  font-weight:bold;
+   text-decoration:none;
 }
 
-.cuerpo {
-  font-family: "Marmelad", sans-serif;
-  font-size: 25px;
-}
-
-.img {
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-  height: 70%;
-}
+input{
+  width: 130px;
+  height: 20px;
+  margin: auto;
+  

@@ -1,15 +1,22 @@
 <h1 class="titulo">Carrito de Compras</h1>
 
 <div class="contenedor-flex">
-  <input type="text" id="producto" placeholder="Ingrese el producto" />
+  <input
+    class="imput"
+    type="text"
+    id="producto"
+    placeholder="Ingrese el producto"
+  />
   <input type="number" id="precio" placeholder="Ingrese el precio" />
-  <button id="btn-agregar">Agregar al Carrito</button>
-  <p>Detalle de compra:</p>
+  <button class="boton" id="btn-agregar">Agregar al Carrito</button>
+  <p class="subtitulo">Detalle de compra:</p>
   <ul id="detalle"></ul>
   <button id="btn-calcular">Calcular Total</button>
 </div>
 
-<h3>Total Compra: $ <span id="total"></span></h3>
-<button id="vaciar">Vaciar Carrito</button>
-
+<h3 class="subtitulo">
+  Total Compra: $ <span class="boton" id="total"></span>
+</h3>
+<button class="boton" id="vaciar">Vaciar Carrito</button>
 <a href="index.html">Pagina Principal</a>
+<link class="enlace" rel="stylesheet" type="text/css" href="styles.css" />
