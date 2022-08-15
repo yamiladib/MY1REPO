@@ -1,35 +1,19 @@
-#contenedor-flex {
+.contenedor-flex {
+  margin: auto;
+  padding: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 80vh;
-  background
+  height: 100vh;
+  background-image: url(fondo.jpg);
 }
 
-.titulo{
-  font-family: 'Cambria', sans-serif;
-  font-size: 40px;
-  font-weight: bold
+.h {
+  display: block;
+  margin: 0 auto;
 }
 
-.subtitulo{
-  font-family: 'Mermelad', sans-serif;
-  font: size 20;px;
-  font-weight: bold;
+.link {
+  text-decoration-line: none;
+  text-decoration-color: black;
 }
-
-.cuerpo{
-  font-family: 'laila', sans-serif;
-  font-size: 20px;
-}
-.enlace{
-  color:black
-  font-weight:bold;
-   text-decoration:none;
-}
-
-input{
-  width: 130px;
-  height: 20px;
-  margin: auto;
-  
